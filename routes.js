@@ -1,17 +1,17 @@
-//Global
+// Global
 const HOME = "/";
 const JOIN = "/join";
 const LOGIN = "/login";
 const LOGOUT = "logout";
 const SEARCH = "/search";
 
-//Users
+// Users
 const USERS = "/users";
 const USER_DETAIL = "/:id";
 const EDIT_PROFILE = "/edit-profile";
 const CHANGE_PASSWORD = "/change-password";
 
-//Video
+// Video
 const VIDEOS = "/videos";
 const UPLOAD = "/upload";
 const VIDEO_DETAIL = "/:id";
@@ -26,7 +26,7 @@ const routes = {
   search: SEARCH,
   users: USERS,
   userDetail: id => {
-    if(id) {
+    if (id) {
       return `/users/${id}`;
     } else {
       return USER_DETAIL;
@@ -37,21 +37,21 @@ const routes = {
   videos: VIDEOS,
   upload: UPLOAD,
   videoDetail: id => {
-    if(id) {
+    if (id) {
       return `/videos/${id}`;
     } else {
       return VIDEO_DETAIL;
     }
   },
   editVideo: id => {
-    if(id) {
+    if (id) {
       return `/videos/${id}/edit`;
     } else {
       return EDIT_VIDEO;
     }
   },
   deleteVideo: id => {
-    if(id) {
+    if (id) {
       return `/video/${id}/delete`;
     } else {
       return DELETE_VIDEO;

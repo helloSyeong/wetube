@@ -9,8 +9,8 @@ export const localsMiddleware = (req, res, next) => {
   res.locals.user = {
     isAuthenticated: true,
     id: 1
-  }
+  };
   next();
-}
+};
 
 export const uploadVideo = multerVideo.single("videoFile");

@@ -43,7 +43,7 @@ typings/
 .npm
 
 # Optional eslint cache
-.eslintcache
+.12eslintcache
 
 # Optional REPL history
 .node_repl_history
@@ -82,4 +82,5 @@ build
 comments.txt
 index.js
 _db.js
-videos
+uploads
+static

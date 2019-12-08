@@ -7,7 +7,7 @@ import {
   postChangePassword,
   getChangePassword
 } from "../controllers/userController";
-import { onlyPrivate, uploadAvatar, onlyPublic } from "../middlewares";
+import { onlyPrivate, uploadAvatar } from "../middlewares";
 
 const userRouter = express.Router();
 

@@ -1,5 +1,3 @@
-import { DocumentQuery } from "mongoose";
-
 const videoContainer = document.getElementById("jsVideoPlayer");
 const videoPlayer = videoContainer.querySelector("video");
 const playBtn = document.getElementById("jsPlayButton");
